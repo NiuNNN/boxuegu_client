@@ -1,0 +1,78 @@
+.wrapper{
+  width: 1360px;
+  margin: 0 auto;
+}
+.header{
+  height: 60px;
+  background-color: #252B31;
+}
+.header .logo{
+  float: left;
+  margin: 10px 0;
+  width: 121px;
+  height: 40px;
+  /* background-color: pink */
+}
+.header .register,.header .login{
+  float: right;
+  margin: 15px 0;
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.header .register{
+  margin-left: 20px;
+}
+.header .register:hover{
+  background-color: #EF8220;
+  border-color: #EF8220;
+}
+.header .login:hover{
+  background-color: #EF8220;
+  border-color: #EF8220;
+}
+.footer{
+  text-align: center;
+  background-color: #252B31;
+}
+.footer .top{
+  padding: 30px 0;
+  border-bottom: 1px solid #4D525A;
+}
+.footer img{
+  margin: 0 30px 30px;
+}
+.footer .top ul{
+  width: 963px;
+  margin: 0 auto 30px;
+}
+.footer .top li{
+  float: left;
+  margin-right: 40px;
+}
+.footer .top li a{
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+  color: #fff;
+}
+.footer .bottom{
+  padding: 30px 0;
+}
+.footer .bottom p{
+  color: #97979C;
+}
+.footer .bottom ul{
+  width: 478px;
+  margin: 0 auto 30px;
+}
+.footer .bottom li{
+  float: left;
+  margin-right: 30px;
+  color: #97979C;
+}
